@@ -36,8 +36,8 @@ import {
 
 
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume',
-  description: "Resume site for Brandon Worobi",
+  title: 'Brandon Worobi',
+  description: "CV site for Brandon Worobi",
 };
 
 export const SectionId = {
@@ -84,9 +84,6 @@ export const heroData: Hero = {
   ],
 };
 
-/**
- * About section
- */
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Brandon is a seasoned professional with over 15 years of experience in Business Operations and Full Stack Web Development. He possesses a unique blend of technical and operational expertise, having honed his skills in both the corporate world and the US Army.
@@ -107,9 +104,6 @@ export const aboutData: About = {
   ],
 };
 
-/**
- * Skills section
- */
 export const skills: SkillGroup[] = [
   {
     name: 'Spoken languages',
@@ -193,9 +187,7 @@ export const skills: SkillGroup[] = [
   },
 ];
 
-/**
- * Portfolio section
- */
+
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Scout Consultatory',
@@ -229,9 +221,6 @@ export const portfolioItems: PortfolioItem[] = [
   },
 ];
 
-/**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
- */
 export const education: TimelineItem[] = [
   {
     date: 'October 2020',
@@ -265,21 +254,17 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2021 - Present',
+    date: 'March 2020 - Present',
     location: 'Scout Consultatory',
     title: 'Freelance',
     content: (
       <p>
-       An operations and IT/Web consulting business specializing in the cannabis industry that was started out of the pandemic in 2020. 
-       We offer expertise in all aspects of business operations, including supply chain management, production efficiency, and IT infrastructure.
+       An operations and IT/Web consulting business specializing in the cannabis industry that was started out of the pandemic in 2020.
       </p>
     ),
   },
 ];
 
-/**
- * Testimonial section
- */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
@@ -289,7 +274,7 @@ export const testimonial: TestimonialSection = {
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg',
     },
     {
-      name: 'Nick C',
+      name: 'Nathan C',
       text: '"As a former colleague, I can attest to Brandons exceptional work ethic and strong interpersonal skills. They consistently went above and beyond to ensure projects were completed to the highest standard, and were a pleasure to work with. I have no doubt that [Name] will be a valuable asset to any organization."',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg',
     },
