@@ -9,7 +9,6 @@ import {
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -123,7 +122,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
         name: 'HTML & CSS',
@@ -144,7 +143,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
         name: 'JS',
@@ -303,11 +302,6 @@ export const contact: ContactSection = {
       href: 'https://www.google.com/maps/place/Detroit+Metropolitan+Area,+MI/@42.6720231,-84.3672283,8z/data=!3m1!4b1!4m6!3m5!1s0x8824eb3ebbb50f79:0x2c296b784b3160f7!8m2!3d42.8105356!4d-83.0790865!16zL20vMDJndDVz',
     },
     {
-      type: ContactType.Instagram,
-      text: '@revnibbles',
-      href: 'https://www.instagram.com/revnibbles/',
-    },
-    {
       type: ContactType.Github,
       text: 'Brandon Worobi',
       href: 'https://github.com/BrandonWorobi',
@@ -320,6 +314,5 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/brandonworobi'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21122082/brandon-worobi'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/worobi/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/revnibbles/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/revnibbles'},
 ];
