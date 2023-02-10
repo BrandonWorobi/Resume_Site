@@ -280,7 +280,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Monica C.',
-      text: '"I have had the privilege of working with Brandon on several projects and have been continually impressed by their creativity and technical expertise. Their ability to think outside the box and find innovative solutions to complex problems is unparalleled. I would not hesitate to recommend [Name] to anyone looking for a top-notch professional."',
+      text: '"I have had the privilege of working with Brandon on several projects and have been continually impressed by their creativity and technical expertise. Their ability to think outside the box and find innovative solutions to complex problems is unparalleled. I would not hesitate to recommend Brandon to anyone looking for a top-notch professional."',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/66.jpg',
     },
   ],
