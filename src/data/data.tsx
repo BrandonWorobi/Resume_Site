@@ -64,7 +64,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me spending time with my <strong className="text-stone-100">Children</strong>,
-        Riding my <strong className="text-stone-100">Bicycle</strong> around Metro-Detroit, or exploring & Camping the beautiful state of{' '}
+        Riding my <strong className="text-stone-100">Bicycle</strong> around Metro-Detroit, or Exploring & Camping the Beautiful State of{' '}
         <strong className="text-stone-100">Michigan</strong>.
       </p>
     </>
@@ -275,7 +275,7 @@ export const testimonial: TestimonialSection = {
     },
     {
       name: 'Nathan C',
-      text: '"As a former colleague, I can attest to Brandons exceptional work ethic and strong interpersonal skills. They consistently went above and beyond to ensure projects were completed to the highest standard, and were a pleasure to work with. I have no doubt that [Name] will be a valuable asset to any organization."',
+      text: '"As a former colleague, I can attest to Brandons exceptional work ethic and strong interpersonal skills. They consistently went above and beyond to ensure projects were completed to the highest standard, and were a pleasure to work with. I have no doubt that Brandon will be a valuable asset to any organization."',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/13.jpg',
     },
     {
