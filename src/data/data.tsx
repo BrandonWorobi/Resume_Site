@@ -87,7 +87,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Brandon is a seasoned professional with over 15 years of experience in Business Operations and Full Stack Web Development. He possesses a unique blend of technical and operational expertise, having honed his skills in both the corporate world and the US Army.
 
-  As a veteran of the US Army, Brandon learned the importance of leadership, teamwork, and attention to detail, skills that he has carried over into his business career. Throughout his 15 years in the business operations field, John has excelled in managing large-scale projects, streamlining processes, and implementing solutions to improve operational efficiency.
+  As a veteran of the US Army, Brandon learned the importance of leadership, teamwork, and attention to detail, skills that he has carried over into his business career. Throughout his 15 years in the business operations field, Brandon has excelled in managing large-scale projects, streamlining processes, and implementing solutions to improve operational efficiency.
 
   In addition to his operational experience, Brandon also possesses strong technical skills in Full Stack Web Development. He has developed and maintained complex web applications, and is well-versed in a variety of programming languages and technologies.
 
