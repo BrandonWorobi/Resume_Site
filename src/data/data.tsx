@@ -10,6 +10,8 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -34,7 +36,7 @@ import {
 
 export const homePageMeta: HomepageMeta = {
   title: 'Brandon Worobi',
-  description: "Just a little bit about Brandon Worobi",
+  description: "CV site for Brandon Worobi",
 };
 
 export const SectionId = {
@@ -57,11 +59,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Metro-Detroit Based <strong className="text-stone-100">Full Stack Software Engineer & Operations Specialist</strong>, currently looking for a new Project or Opportunity
+        I'm a Metro-Detroit Based <strong className="text-stone-100">Full Stack Software Engineer & Operations Specialist</strong>, currently looking for a new opportunity
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me spending time with my <strong className="text-stone-100">Children</strong>,
-        Riding my <strong className="text-stone-100">Bicycle</strong> around Down-Town Detroit, or Exploring & Camping the Beautiful State of{' '}
+        Riding my <strong className="text-stone-100">Bicycle</strong> around Metro-Detroit, or Exploring & Camping the Beautiful State of{' '}
         <strong className="text-stone-100">Michigan</strong>.
       </p>
     </>
@@ -95,8 +97,8 @@ export const aboutData: About = {
     {label: 'Location', text: 'Metro-Detroit', Icon: MapIcon},
     {label: 'Age', text: '444 Months & Counting', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Heinz 57', Icon: FlagIcon},
-    {label: 'Interests', text: 'Camping ,Cannabis ,Reading ,Technology & Video Gaming', Icon: SparklesIcon},
-    {label: 'Study', text: 'Sam Houston College & Beyond', Icon: AcademicCapIcon},
+    {label: 'Interests', text: 'Camping, Reading & Video Gaming', Icon: SparklesIcon},
+    {label: 'Study', text: 'Sam Houston State & Beyond', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Open', Icon: OfficeBuildingIcon},
   ],
 };
@@ -229,25 +231,11 @@ export const education: TimelineItem[] = [
     date: 'January 2016',
     location: 'Sam Houston State University',
     title: 'Bachelor of Business Administration',
-    content: <p>Started at Lone Star Community College out of The Woodlands before Transfering, Focused on Logisitcs & Supply Chain</p>,
+    content: <p>Focused on Logisitcs & Supply Chain</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
-  {
-    date: 'January 2023 - Present',
-    location: 'House of Dank',
-    title: 'Dispatcher',
-    content: (
-      <p>
-        •Proficient in using Dutchie management and Metrc tracking software to ensure accurate and timely dispatch of orders & Inventory.
-        •Skilled in maintaining communication with drivers and customers to provide updates on the delivery status and resolve any issues that may arise.
-        •Knowledgeable about cannabis products, and strains, and able to provide guidance to customers as needed.
-        •Committed to ensuring compliance with state and local laws and regulations governing the sale and delivery of cannabis products.
-        •Strong multitasking skills and ability to work in a fast-paced environment, while maintaining a high level of accuracy and attention to detail.
-      </p>
-    )
-  }
   {
     date: 'July 2021 - October 2022',
     location: 'Exectutive Operations',
@@ -270,7 +258,7 @@ export const experience: TimelineItem[] = [
     title: 'Freelance',
     content: (
       <p>
-       An operations and IT/Web consulting business that was started out of the pandemic in 2020.
+       An operations and IT/Web consulting business specializing in the cannabis industry that was started out of the pandemic in 2020.
       </p>
     ),
   },
@@ -297,6 +285,8 @@ export const testimonial: TestimonialSection = {
   ],
 };
 
+
+
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'Here is a good spot for you to pick your poison on how to contact me',
@@ -322,5 +312,7 @@ export const contact: ContactSection = {
 
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/brandonworobi'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21122082/brandon-worobi'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/worobi/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/revnibbles'},
 ];
