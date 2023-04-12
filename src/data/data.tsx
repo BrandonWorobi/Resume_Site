@@ -35,7 +35,7 @@ import {
 
 export const homePageMeta: HomepageMeta = {
   title: 'Brandon Worobi',
-  description: "CV site for Brandon Worobi",
+  description: "Just a bit about Brandon Worobi",
 };
 
 export const SectionId = {
