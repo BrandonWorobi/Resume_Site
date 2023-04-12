@@ -11,7 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -59,7 +58,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Metro-Detroit Based <strong className="text-stone-100">Full Stack Software Engineer & Operations Specialist</strong>, currently looking for a new opportunity
+        I'm a Metro-Detroit Based <strong className="text-stone-100">Full Stack Software Engineer & Operations Specialist</strong>, currently @ House of Dank but looking for new opportunities
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me spending time with my <strong className="text-stone-100">Children</strong>,
@@ -95,7 +94,7 @@ export const aboutData: About = {
   `,
   aboutItems: [
     {label: 'Location', text: 'Metro-Detroit', Icon: MapIcon},
-    {label: 'Age', text: '444 Months & Counting', Icon: CalendarIcon},
+    {label: 'Age', text: '446 Months & Counting', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Heinz 57', Icon: FlagIcon},
     {label: 'Interests', text: 'Camping, Reading & Video Gaming', Icon: SparklesIcon},
     {label: 'Study', text: 'Sam Houston State & Beyond', Icon: AcademicCapIcon},
@@ -237,6 +236,22 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
+    date: 'January 2023 - Present',
+    location: 'House of Dank - Center Line',
+    title: 'Dispatcher',
+    content: (
+      <p>
+•Proficient in using Metrc Inventory management and Dutchie tracking software to ensure accurate and timely dispatch of orders.
+•Skilled in maintaining communication with drivers and customers to provide updates on the delivery status and resolve any issues that may arise.
+•Knowledgeable about cannabis products, and strains, and able to provide guidance to customers as needed.
+•Counted & Processed large amounts of currency from Orders.
+•Assisted Delivery & Store mananger in improving processes and SOP's. 
+•Committed to ensuring compliance with CRA and local laws and regulations governing the sale and delivery of cannabis products.
+•Monitored up to 15 drivers at once while actively routing incoming orders as drivers routes are delivered.
+      </p>
+    ),
+  },
+  {
     date: 'July 2021 - October 2022',
     location: 'Exectutive Operations',
     title: 'Director of Operations',
@@ -249,16 +264,6 @@ export const experience: TimelineItem[] = [
 •Applied the principles of Lean to improve overall operations, including training and daily reporting.
 •Lead over 75 Employees with the support of 4 - 5. supervisors and an operations manager, Reported to the COO & CEO.
 •Complied with all Compliance regulations and ensured licenses, inspections, and other legal requirements remained up to date.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2020 - Present',
-    location: 'Scout Consultatory',
-    title: 'Freelance',
-    content: (
-      <p>
-       An operations and IT/Web consulting business specializing in the cannabis industry that was started out of the pandemic in 2020.
       </p>
     ),
   },
@@ -314,5 +319,4 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/brandonworobi'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/21122082/brandon-worobi'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/worobi/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/revnibbles'},
 ];
