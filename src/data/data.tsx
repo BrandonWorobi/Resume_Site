@@ -70,7 +70,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/Resume.pdf',
+      href: 'https://www.dropbox.com/s/yd0o8zchi5ckbtj/Brandon%20Worobi%20-%20Resume.pdf?dl=0',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -289,7 +289,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for you to pick your posion on how to contact me ',
+  description: 'Here is a good spot for you to pick your poison on how to contact me',
   items: [
     {
       type: ContactType.Email,
